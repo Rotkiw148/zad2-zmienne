@@ -46,3 +46,9 @@ let km = 360;
 let ilelitrow =  8.0 / 100.0;
 let price = cenabenzyny * ilelitrow*360.0;
 document.writeln(`<p>:koszt to ${price}</p>`);
+//zad9
+let trasa = parseFloat(prompt("podaj długość"));
+let spala = parseFloat(prompt("podaj ile spala"));
+let cena = parseFloat(prompt("podaj cenę paliwa"));
+let kosztprzejazdu = cena * spala * trasa;
+document.writeln(`<p>:koszt przejazdu to ${kosztprzejazdu}</p>`);
