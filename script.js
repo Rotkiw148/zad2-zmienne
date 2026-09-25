@@ -52,3 +52,9 @@ let spala = parseFloat(prompt("podaj ile spala"));
 let cena = parseFloat(prompt("podaj cenę paliwa"));
 let kosztprzejazdu = cena * spala * trasa;
 document.writeln(`<p>:koszt przejazdu to ${kosztprzejazdu}</p>`);
+//zad10
+let zysk = parseFloat(prompt("podaj kwotę"));
+let belka = zysk *0.81;
+let lokata = belka *1.08;
+document.writeln(`<p>:zysk  ${lokata}</p>`);
+
