@@ -28,3 +28,11 @@ document.writeln(`<p>pierwiastek : ${pierwiastek}</p>`);
 let g = parseFloat(prompt("podaj 1 liczbe"));
 let polekwadratu = g*g;
 document.writeln(`<p>pole kwadratu : ${polekwadratu}</p>`);
+//zad6
+let h = parseFloat(prompt("podaj 1 liczbe"));
+let i = parseFloat(prompt("podaj 2 liczbe"));
+let j = parseFloat(prompt("podaj 3 liczbe"));
+let poleprostopadloscianu = 2*(h*i+i*j+h*j);
+document.writeln(`<p>pole prostopadłościanu : ${poleprostopadloscianu}</p>`);
+
+
