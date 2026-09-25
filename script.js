@@ -24,3 +24,7 @@ document.writeln(`<p>iloczyn : ${iloczyn}</p>`);
 let f = parseFloat(prompt("podaj 1 liczbe"));
 let pierwiastek = Math.sqrt(f);
 document.writeln(`<p>pierwiastek : ${pierwiastek}</p>`);
+//zad5
+let g = parseFloat(prompt("podaj 1 liczbe"));
+let polekwadratu = g*g;
+document.writeln(`<p>pole kwadratu : ${polekwadratu}</p>`);
