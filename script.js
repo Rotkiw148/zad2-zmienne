@@ -40,4 +40,9 @@ let polekola = Math.PI* Math.pow(k *2);
 let obwodkola = 2*Math.PI*k;
 document.writeln(`<p> pole koła : ${polekola}</p>`);
 document.writeln(`<p>:obwód koła ${obwodkola}</p>`);
-
+//zad8
+const cenabenzyny =7.81;
+let km = 360;
+let ilelitrow =  8.0 / 100.0;
+let price = cenabenzyny * ilelitrow*360.0;
+document.writeln(`<p>:koszt to ${price}</p>`);
