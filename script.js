@@ -34,5 +34,10 @@ let i = parseFloat(prompt("podaj 2 liczbe"));
 let j = parseFloat(prompt("podaj 3 liczbe"));
 let poleprostopadloscianu = 2*(h*i+i*j+h*j);
 document.writeln(`<p>pole prostopadłościanu : ${poleprostopadloscianu}</p>`);
-
+//zad7
+let k = parseFloat(prompt("podaj 1 liczbe"));
+let polekola = Math.PI* Math.pow(k *2);
+let obwodkola = 2*Math.PI*k;
+document.writeln(`<p> pole koła : ${polekola}</p>`);
+document.writeln(`<p>:obwód koła ${obwodkola}</p>`);
 
