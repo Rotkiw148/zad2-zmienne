@@ -20,4 +20,7 @@ document.writeln(`<p>suma : ${suma2}</p>`);
 document.writeln(`<p>różnica : ${roznica}</p>`);
 document.writeln(`<p>iloczyn : ${iloczyn}</p>`);
 
-
+//zad4
+let f = parseFloat(prompt("podaj 1 liczbe"));
+let pierwiastek = Math.sqrt(f);
+document.writeln(`<p>pierwiastek : ${pierwiastek}</p>`);
